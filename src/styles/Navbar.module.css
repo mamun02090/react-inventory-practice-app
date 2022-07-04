@@ -1,0 +1,41 @@
+.mainNav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 12px 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    color: #3E3F48;
+}
+.navitem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.firstItem{
+    margin-left: 24px;
+}
+.navSearch{
+    margin-left: 100px;
+}
+.secondItem{
+    margin-right: 28px;
+    
+}
+.secondItem img{
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+@media(max-width: 800px){
+    .navSearch{
+        margin-left: 0px;
+    } 
+}
+@media(max-width: 400px){
+    .navSearch{
+        display: none;
+    } 
+}

@@ -1,0 +1,12 @@
+nav .items{
+    text-decoration: none;
+    color: gray;
+}
+.menu_nav{
+    margin-top: 100px;
+}
+@media (max-width:400px ){
+    .menu_nav{
+        display: none;
+    }
+}
