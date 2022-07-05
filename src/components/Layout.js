@@ -10,11 +10,12 @@ export default function Layout({children}){
             
             <div className="container">
                 <div className="contents">
-                    <Menu/>
+                    <Menu className='menu_display'/>
                     <div className="vertical_line"></div>
                      <div className="content">{children}</div>
                 </div>
             </div>
+            <Menu className='mobile_menu'/>
         </>
     )
 }

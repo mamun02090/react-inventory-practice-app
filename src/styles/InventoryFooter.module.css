@@ -58,4 +58,7 @@
     .items_number{
         display: none;
     }
+    .button_footer{
+        justify-content: flex-start;
+    }
 }

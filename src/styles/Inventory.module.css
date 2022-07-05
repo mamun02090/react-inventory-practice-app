@@ -12,6 +12,7 @@
     justify-content: space-between;
     border-radius: 4px;
     border: 1px solid #E5E5E6;
+    box-shadow: 0px 5px 4px rgba(20, 40, 82, 0.08), 0px 24px 24px rgba(20, 40, 82, 0.04);
 }
 .search{
     margin: 20px 20px 0 20px;
@@ -19,7 +20,8 @@
 
 @media (max-width: 400px ){
     .inventory_section{
-        max-width: 100%; 
+        max-width: 100%;
+        margin-bottom: 100px; 
     }
     .search{
         max-width: 100%;
