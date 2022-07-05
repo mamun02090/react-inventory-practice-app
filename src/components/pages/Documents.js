@@ -1,5 +1,11 @@
+import Spin from "../Spin";
+
 export default function Documents(){
     return(
-        <h1>Under Construction</h1>
+        <div>
+            <Spin/>
+            <h1>Under Construction</h1>
+        </div>
+        
     )
 }

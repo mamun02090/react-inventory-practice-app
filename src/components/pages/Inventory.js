@@ -11,7 +11,7 @@ export default function Inventory(){
     return(
         <div className={classes.inventory}>
             <h2 style={{textAlign: 'left', fontSize: '20px'}}>Inventory</h2>
-            <div style={{width: '100%', color: 'red', height: '1px', backgroundColor: '#E5E5E6', marginTop: '20px', marginLeft: '-20px'}}></div>
+            <div className='horizontal_line'></div>
             <div className={classes.inventory_section}>
                 <Search className={classes.search}/>
                 {console.log(data[0])}

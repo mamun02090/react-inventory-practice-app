@@ -8,13 +8,13 @@ export default function Navbar(){
     return(
         <nav className={classes.mainNav}>
             <div className={`${classes.navitem} ${classes.firstItem}`}>
-                <Dropdown option='Starbucks'/>
+                <Dropdown option='Starbucks' className={classes.dropdown_arrow}/>
                 <Search className={classes.navSearch}/>
             </div>
             <div className={`${classes.navitem} ${classes.secondItem}`}>
                 <FontAwesomeIcon className={classes.icon} icon={faBell}></FontAwesomeIcon>
                 <img src={image} alt='user'/>
-                <Dropdown option='John Doe'/>
+                <Dropdown option='John Doe' className={classes.dropdown_arrow}/>
             </div>
         </nav>
     )

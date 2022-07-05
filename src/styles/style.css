@@ -12,10 +12,11 @@ body{
     margin: auto;
     text-align: center;
     position: absolute;
+    width: 100%;
 }
 .content{
     margin-top: 80px;
-    margin-left: 20px;
+    width: 100%;
 }
 nav a{
     display: flex;
@@ -39,7 +40,19 @@ nav a.active{
     justify-content: flex-start;
     align-items: flex-start;
 }
-
+.horizontal_line{
+    width: 100%; 
+    height: 1px; 
+    background-color: #E5E5E6; 
+    margin-top: 20px;
+    
+}
+.vertical_line{
+    height: 100vh;
+    width: 1px;
+    background-color: rgb(229, 229, 230);
+    margin-top: 64px;
+}
 table{
     width: 100%;
     margin-top: 20px;
@@ -49,7 +62,7 @@ table{
 
 td{
     text-align: left;
-    padding: 20px 0px 20px 20px;
+    padding: 10px 0px 10px 20px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -61,6 +74,16 @@ td{
     border: none;
     outline: 0;
     color: #88898E;
+}
+.construction{
+    margin-top: 30vh;
+    color: orange;
+    font-size: 40px;
+    animation: spin 2s infinite;
+}
+@keyframes spin{
+    0%{transform: rotate(0deg); color: orangered;}
+    100%{transform: rotate(360deg); color: orange}
 }
 @media (max-width: 800px ){
     .menu-text{
@@ -77,9 +100,12 @@ td{
 }
 @media (max-width: 400px ){
     .content{
-        margin: 80px 5px;
+        margin: 80px 0px 0px;
     }
     .content h2{
         margin-left: 20px;
+    }
+    .vertical_line{
+        display: none;
     }
 }
