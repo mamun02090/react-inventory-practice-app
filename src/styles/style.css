@@ -46,7 +46,7 @@ nav a.active{
     align-items: flex-start;
     justify-content: center;
     padding: 16px;
-    gap: 10%;
+    gap: 2%;
     position: fixed;
     height: 72px;
     left: 0px;
